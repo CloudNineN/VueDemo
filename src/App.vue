@@ -1,19 +1,25 @@
 <template>
   <div class="demo">
-    <TestMVVM/>
-    <P></P>
-    <Template/>
+    <h1>组件1</h1>
+    <TestMVVM />
+    <p>=====================================================</p>
+    <h1>组件2</h1>
+    <Template />
+    <h1>组件3</h1>
+    <ComputedAndWatch/>
   </div>
 </template>
 
 <script>
-import Template from './component/Template'
-import TestMVVM from './component/TestMVVM'
+import Template from "./component/Template";
+import TestMVVM from "./component/TestMVVM";
+import ComputedAndWatch from "./component/ComputedAndWatch";
 export default {
   name: "app",
-  components:{
+  components: {
     Template,
-    TestMVVM
+    TestMVVM,
+    ComputedAndWatch
   }
 };
 </script>

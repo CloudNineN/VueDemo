@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>{{msg}}</h1>
-    <p></p>
+    <h2>MVVM样例</h2>
+    <p>{{msg}}</p>
     <label>
       <input type="text" v-model="msg" />
     </label>
@@ -11,7 +11,7 @@
 export default {
   data() {
     return {
-      msg: "hhhhhhhhhh"
+      msg: "修改此处数据页面将同步改变"
     };
   }
 };
