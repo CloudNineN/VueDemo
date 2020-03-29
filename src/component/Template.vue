@@ -42,8 +42,8 @@ export default {
     };
   },
   methods: {
-    Respond(s) {
-      alert(s);
+    Respond(p) {
+      alert(p);
     }
   }
 };
