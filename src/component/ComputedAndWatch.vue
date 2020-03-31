@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       site: "baidu",
-      before: "https://",
+      before: "https://www.",
       after: ".com",
       site2: "",
       fullSite2: "",
